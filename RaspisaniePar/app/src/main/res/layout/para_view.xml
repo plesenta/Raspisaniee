@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/den"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="День"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/firstPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/den"
+        android:textColor="@color/black"
+        android:text="Первая пара"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondPara"
+        android:layout_below="@+id/firstPara"
+        android:textColor="@color/black"
+        android:text="Вторая пара"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/thirdPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondPara"
+        android:textColor="@color/black"
+        android:text="Третья пара"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/fourthPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdPara"
+        android:textColor="@color/black"
+        android:text="Четвертая пара"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/fifthPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourthPara"
+        android:textColor="@color/black"
+        android:text="Пятая пара"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/fifthPara"
+        android:layout_marginTop="5dp"
+        android:background="#B8B8B8"/>
+
+</RelativeLayout>
